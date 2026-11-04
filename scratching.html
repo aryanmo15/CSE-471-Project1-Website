@@ -41,7 +41,7 @@
 </div>
 </div></section>
 <section class="section"><div class="container">
-<div class="section-head"><h2>How the scratching component meets the rubric</h2><p>Each grading level is cumulative. The descriptions below identify the actual classes, note attributes, and behavior used to support each level.</p></div>
+<div class="section-head"><h2>How the scratching component meets the rubric</h2><p>Our scratching synthesizer simulates turntable movement by controlling the speed and direction of recorded audio playback. XML parameters customize scratch patterns, crossfader timing, acceleration, and motor behavior. The implementation supports five techniques: baby, scribble, chirp, transform, and orbit. The table below shows how the code addresses each grading criterion.</p></div>
 <div class="table-wrap"><table class="table"><thead><tr><th>Points</th><th>Criterion</th><th>How our implementation addresses it</th></tr></thead><tbody>
 <tr><td>10</td><td>Audio playback on demand from the sequencer</td><td><code>CSynthesizer::Generate()</code> creates a <code>CScratchInstrument</code> when an XML note reaches its scheduled measure and beat. <code>SetNote()</code> selects the audio recording from <code>CWaveLibrary</code>; <code>Generate()</code> then produces one stereo frame at a time until the note ends.</td></tr>
 <tr><td>20</td><td>Attack, decay, and pitch variation</td><td>The amplitude envelope fades in and out using configurable <code>attack</code> and <code>release</code>. Playback position advances according to the current record velocity, so faster movement changes pitch. Output amplitude is also scaled by the absolute velocity to simulate a softer sound when the record moves slowly.</td></tr>
