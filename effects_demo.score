@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<score bpm="120" beatspermeasure="4">
+
+  <instrument instrument="ScratchInstrument"
+              dry="1"
+              chorus="0"
+              reverb="0"
+              flanger="0"
+              ring="0">
+
+    <!-- Dry audio -->
+    <note measure="1" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="baby"
+          startPosition="0.15"
+          dry="1"/>
+
+    <!-- Chorus -->
+    <note measure="2" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="scribble"
+          startPosition="0.38"
+          dry="0.15"
+          chorus="1"/>
+
+    <!-- Reverberation -->
+    <note measure="3" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="chirp"
+          startPosition="0.36"
+          dry="0.2"
+          reverb="1"/>
+
+    <!-- Flanging -->
+    <note measure="4" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="transform"
+          startPosition="0.30"
+          dry="0.2"
+          flanger="1"/>
+
+    <!-- Ring modulation -->
+    <note measure="5" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="orbit"
+          startPosition="0.60"
+          dry="0.2"
+          ring="1"/>
+
+    <!-- All four effects mixed together -->
+    <note measure="6" beat="1"
+          duration="1.5"
+          sample="are-you-ready.wav"
+          method="baby"
+          startPosition="0.15"
+          dry="0.35"
+          chorus="0.25"
+          reverb="0.45"
+          flanger="0.3"
+          ring="0.2"/>
+
+  </instrument>
+
+</score>

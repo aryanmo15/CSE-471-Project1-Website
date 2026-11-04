@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="100" beatspermeasure="4">
+    <instrument instrument="ScratchInstrument">
+
+        <!-- ===== Measure 1 (0-2.4 s): ATTACK/DECAY and PITCH VARIATION ===== -->
+        <!-- Slow baby scratch: the sound swells in and fades out because the record starts and ends at rest -->
+        <note measure="1" beat="1" duration="2" sample="are-you-ready.wav" method="baby" speed="0.8" startPosition="0.15"/>
+        <!-- Same spot, low speed = low pitch and quiet -->
+        <note measure="1" beat="3" duration="1" sample="are-you-ready.wav" method="baby" speed="0.5" startPosition="0.3"/>
+        <!-- Same spot, high speed = high pitch and louder -->
+        <note measure="1" beat="4" duration="1" sample="are-you-ready.wav" method="baby" speed="1.5" startPosition="0.3"/>
+
+        <!-- ===== Measure 2 (2.4-4.8 s): SCRIBBLE then CHIRP ===== -->
+        <!-- Scribble: fast, many short strokes, higher pitched -->
+        <note measure="2" beat="1" duration="1" sample="are-you-ready.wav" method="scribble" startPosition="0.38"/>
+        <!-- Chirp: baby scratch with the fader open only on the forward stroke -->
+        <note measure="2" beat="3" duration="1" sample="are-you-ready.wav" method="chirp" startPosition="0.36"/>
+
+        <!-- ===== Measure 3 (4.8-7.2 s): TRANSFORM then ORBIT ===== -->
+        <!-- Transform: the record moves while the fader is tapped open and closed -->
+        <note measure="3" beat="1" duration="1.5" sample="are-you-ready.wav" method="transform" startPosition="0.3"/>
+        <!-- Orbit: record alternates forward and backward with a short forward and longer return stroke -->
+        <note measure="3" beat="3" duration="2" sample="are-you-ready.wav" method="orbit" speed="1.3" startPosition="0.25"/>
+
+        <!-- ===== Measure 4 (7.2-9.6 s): GENERAL PARAMETERIZATION (custom scratches) ===== -->
+        <!-- Custom 1: 3 fast strokes, short forward / long return, fader gated 4 times per stroke -->
+        <note measure="4" beat="1" duration="1.5" sample="are-you-ready.wav"
+              method="orbit" speed="1.4" cycles="3" stroke="0.3"
+              faderRate="4" faderOpenPercentage="0.4" faderOffset="0.1"
+              startPosition="0.28"/>
+        <!-- Custom 2: played in reverse, 2 strokes, slow fader pulses, softer fader edges -->
+        <note measure="4" beat="3" duration="2" sample="are-you-ready.wav"
+              method="orbit" speed="1.3" cycles="2" stroke="0.6" forward="false"
+              faderRate="2" faderOpenPercentage="0.5" faderOffset="0.0" faderResponse="150"
+              startPosition="0.65"/>
+
+        <!-- ===== Measure 5 (9.6-12 s): MOTOR SIMULATION, before and after ===== -->
+        <!-- Motor off: the hand supplies all of the motion, so the record swings evenly forward and back -->
+        <note measure="5" beat="1" duration="2" sample="are-you-ready.wav"
+              method="baby" speed="1.0" cycles="2" handPressure="1" startPosition="0.1"/>
+        <!-- Motor on: the hand resists the motor, so the record is dragged forward during the strokes -->
+        <note measure="5" beat="3" duration="2" sample="are-you-ready.wav"
+              method="baby" speed="1.0" cycles="2" handPressure="0.65" motorSpeed="1.0" startPosition="0.1"/>
+
+	<!-- ===== Measure 6 (12-14.4 s): ALL TOGETHER ===== -->
+        <!-- Motor + chirp fader -->
+        <note measure="6" beat="1" duration="1" sample="are-you-ready.wav"
+              method="chirp" speed="1.2" cycles="2" handPressure="0.7" startPosition="0.1"/>
+        <!-- Motor + scribble -->
+        <note measure="6" beat="2" duration="1" sample="are-you-ready.wav"
+              method="scribble" handPressure="0.7" startPosition="0.38"/>
+        <!-- Closing slow baby scratch: fades out to silence -->
+        <note measure="6" beat="3" duration="2" sample="are-you-ready.wav" method="baby" speed="0.6" startPosition="0.15"/>
+
+    </instrument>
+</score>

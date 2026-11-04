@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<score bpm="100" beatspermeasure="4">
+
+  <!-- Intro: vocal scratches (baby, chirp, scribble), drums enter at bar 3 -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="1" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="1" gain="0.65" dry="0.8" reverb="0.35"/>
+    <note measure="1" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.226" dry="1"/>
+    <note measure="1" beat="3.5" sample="sound-library.wav" method="chirp" duration="1.5" startPosition="10.4555" gain="0.65" dry="0.8" chorus="0.15" reverb="0.3"/>
+    <note measure="1" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.22" dry="1"/>
+    <note measure="2" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.3155" speed="1.1" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="2" beat="1" sample="sound-library.wav" method="baby" duration="4" startPosition="56.5" speed="1" cycles="1" stroke="1" gain="0.72" dry="0.5" chorus="0.3" reverb="0.5"/>
+    <note measure="2" beat="3" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="2" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.4434" speed="1" cycles="1" stroke="1" gain="0.342" dry="1" reverb="0.1"/>
+    <note measure="2" beat="4" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.6555" gain="0.65" dry="0.7" reverb="0.3"/>
+    <note measure="2" beat="4.5" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.3155" speed="1.8" gain="0.65" dry="0.7" reverb="0.3"/>
+    <note measure="2" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="2" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.265" dry="1"/>
+    <note measure="3" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.156" dry="1"/>
+    <note measure="3" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.279" dry="1"/>
+    <note measure="3" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.148" dry="1"/>
+    <note measure="3" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="3" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.28" dry="1"/>
+    <note measure="3" beat="3" sample="sound-library.wav" method="transform" duration="1" startPosition="10.4555" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="3" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.137" dry="1"/>
+    <note measure="3" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.29" dry="1"/>
+    <note measure="3" beat="4" sample="sound-library.wav" method="baby" duration="1" startPosition="10.8755" speed="0.9" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="3" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.16" dry="1"/>
+    <note measure="3" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="3" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="3" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.26" dry="1"/>
+    <note measure="4" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.158" dry="1"/>
+    <note measure="4" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="4" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.277" dry="1"/>
+    <note measure="4" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="4" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.176" dry="1"/>
+    <note measure="4" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8021" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="4" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="4" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.322" dry="1"/>
+    <note measure="4" beat="3" sample="sound-library.wav" method="baby" duration="2" startPosition="2.86" speed="1" cycles="1" stroke="1" forward="false" gain="0.5" dry="0.4" reverb="0.5"/>
+    <note measure="4" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.184" dry="1"/>
+    <note measure="4" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="4" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.31" dry="0.8" reverb="0.25"/>
+    <note measure="4" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.309" dry="1"/>
+    <note measure="4" beat="4.0585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.434" dry="0.8" reverb="0.25"/>
+    <note measure="4" beat="4.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.558" dry="0.8" reverb="0.25"/>
+    <note measure="4" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.168" dry="1"/>
+    <note measure="4" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="4" beat="4.5585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.682" dry="0.8" reverb="0.25"/>
+    <note measure="4" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="4" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.418" dry="1"/>
+  </instrument>
+
+  <!-- Groove 1: drums, bass, call and response vocals; lead melody enters at bar 9 -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="5" beat="1" sample="sound-library.wav" method="baby" duration="1.5" startPosition="10.0155" speed="1" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="5" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.234" dry="1"/>
+    <note measure="5" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="5" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.345" dry="1"/>
+    <note measure="5" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="5" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.198" dry="1"/>
+    <note measure="5" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="5" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="5" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.361" dry="1"/>
+    <note measure="5" beat="3" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="5" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="5" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.216" dry="1"/>
+    <note measure="5" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="5" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.403" dry="1"/>
+    <note measure="5" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="5" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.206" dry="1"/>
+    <note measure="5" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="5" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="5" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.368" dry="1"/>
+    <note measure="6" beat="1" sample="sound-library.wav" method="transform" duration="1" startPosition="10.3155" gain="0.65" dry="0.8" flanger="0.35"/>
+    <note measure="6" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.216" dry="1"/>
+    <note measure="6" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="6" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.383" dry="1"/>
+    <note measure="6" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="6" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.209" dry="1"/>
+    <note measure="6" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="6" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="6" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.355" dry="1"/>
+    <note measure="6" beat="3" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.6555" gain="0.65" dry="0.9" reverb="0.15"/>
+    <note measure="6" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.237" dry="1"/>
+    <note measure="6" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="6" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="6" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="6" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.346" dry="1"/>
+    <note measure="6" beat="4" sample="sound-library.wav" method="baby" duration="1" startPosition="10.8755" speed="0.9" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="6" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.197" dry="1"/>
+    <note measure="6" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="6" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="6" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.34" dry="1"/>
+    <note measure="7" beat="1" sample="sound-library.wav" method="orbit" duration="2" startPosition="10.0155" gain="0.65" dry="0.9" chorus="0.3" reverb="0.2"/>
+    <note measure="7" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.219" dry="1"/>
+    <note measure="7" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="7" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.393" dry="1"/>
+    <note measure="7" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="7" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.23" dry="1"/>
+    <note measure="7" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="7" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="7" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.363" dry="1"/>
+    <note measure="7" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="7" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.209" dry="1"/>
+    <note measure="7" beat="3.5" sample="sound-library.wav" method="chirp" duration="1.5" startPosition="10.3155" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="7" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="7" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.399" dry="1"/>
+    <note measure="7" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="7" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.244" dry="1"/>
+    <note measure="7" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="7" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="7" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.36" dry="1"/>
+    <note measure="8" beat="1" sample="sound-library.wav" method="baby" duration="1" startPosition="10.4555" speed="1.2" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="8" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.23" dry="1"/>
+    <note measure="8" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="8" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.417" dry="1"/>
+    <note measure="8" beat="2" sample="sound-library.wav" method="transform" duration="1" startPosition="10.4555" gain="0.65" dry="0.8" flanger="0.4"/>
+    <note measure="8" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="8" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.209" dry="1"/>
+    <note measure="8" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="8" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="8" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.354" dry="1"/>
+    <note measure="8" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.198" dry="1"/>
+    <note measure="8" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="8" beat="3.5" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.3155" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="8" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="8" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="8" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.378" dry="1"/>
+    <note measure="8" beat="4" sample="sound-library.wav" method="baby" duration="0.5" startPosition="11.7867" gain="0.6" dry="0.9" reverb="0.2"/>
+    <note measure="8" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.228" dry="1"/>
+    <note measure="8" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="8" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="8" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5691" speed="1.17" cycles="1" stroke="1" gain="0.366" dry="1"/>
+    <note measure="8" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.411" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="9" beat="1" sample="sound-library.wav" method="baby" duration="1" startPosition="10.0155" speed="0.9" gain="0.455" dry="0.9" reverb="0.2"/>
+    <note measure="9" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.221" dry="1"/>
+    <note measure="9" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.729" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="9" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="9" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.264" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="9" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.405" dry="1"/>
+    <note measure="9" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="9" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.203" dry="1"/>
+    <note measure="9" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="9" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="9" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.401" dry="1"/>
+    <note measure="9" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="9" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.205" dry="1"/>
+    <note measure="9" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.721" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="9" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="9" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.264" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="9" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.412" dry="1"/>
+    <note measure="9" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="9" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.248" dry="1"/>
+    <note measure="9" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="9" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="9" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="9" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.17" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="1" sample="sound-library.wav" method="orbit" duration="0.5" startPosition="11.4883" gain="0.6" dry="0.9" reverb="0.2"/>
+    <note measure="10" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5687" speed="1.18" cycles="1" stroke="1" gain="0.2" dry="1"/>
+    <note measure="10" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.421" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="10" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.762" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.414" dry="1"/>
+    <note measure="10" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="10" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.234" dry="1"/>
+    <note measure="10" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="10" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="10" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.401" dry="1"/>
+    <note measure="10" beat="3" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.52" dry="0.9" reverb="0.2"/>
+    <note measure="10" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.211" dry="1"/>
+    <note measure="10" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.185" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="10" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="10" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="10" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.391" dry="1"/>
+    <note measure="10" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.118" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="10" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="10" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.722" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="10" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="10" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.404" dry="1"/>
+    <note measure="11" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.21" dry="1"/>
+    <note measure="11" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="11" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.342" dry="1"/>
+    <note measure="11" beat="1.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.639" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="11" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.209" dry="1"/>
+    <note measure="11" beat="2.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.368" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="11" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="11" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.413" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.329" dry="1"/>
+    <note measure="11" beat="3" sample="sound-library.wav" method="transform" duration="1" startPosition="10.3155" gain="0.52" dry="0.8" flanger="0.35"/>
+    <note measure="11" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="11" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.215" dry="1"/>
+    <note measure="11" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="11" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.335" dry="1"/>
+    <note measure="11" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.618" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="11" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5691" speed="1.17" cycles="1" stroke="1" gain="0.245" dry="1"/>
+    <note measure="11" beat="4.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.804" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="11" beat="4.775" sample="sound-library.wav" method="baby" duration="1.5" startPosition="82.95" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="11" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="11" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.385" dry="1"/>
+    <note measure="12" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.227" dry="1"/>
+    <note measure="12" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.326" dry="1"/>
+    <note measure="12" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="12" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="12" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="12" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="12" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.414" dry="1"/>
+    <note measure="12" beat="2.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.271" speed="1.682" cycles="1" stroke="1" gain="0.649" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="12" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.23" dry="1"/>
+    <note measure="12" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.832" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="12" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="12" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.4434" speed="1" cycles="1" stroke="1" gain="0.342" dry="0.9" reverb="0.3"/>
+    <note measure="12" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="12" beat="3.7834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7119" speed="1.335" cycles="1" stroke="1" gain="0.476" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.905" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.45" reverb="0.25"/>
+    <note measure="12" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.392" dry="1"/>
+    <note measure="12" beat="4.0334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7231" speed="1.189" cycles="1" stroke="1" gain="0.504" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="4.2834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7375" speed="1" cycles="1" stroke="1" gain="0.55" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.251" dry="1"/>
+    <note measure="12" beat="4.5334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7458" speed="0.891" cycles="1" stroke="1" gain="0.583" dry="0.9" reverb="0.2"/>
+    <note measure="12" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.269" dry="1"/>
+  </instrument>
+
+  <!-- Break: no drums, ring-mod and flanged vocals, reverb pad, snare-roll build -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="13" beat="1" sample="sound-library.wav" method="baby" duration="4" startPosition="56.5" speed="1" cycles="1" stroke="1" gain="0.81" dry="0.4" chorus="0.35" reverb="0.5"/>
+    <note measure="13" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="1" gain="0.65" dry="0.4" reverb="0.4" ring="0.55"/>
+    <note measure="13" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.285" dry="1"/>
+    <note measure="13" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.252" dry="1"/>
+    <note measure="13" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.1581" speed="1.498" cycles="1" stroke="1" gain="0.187" dry="0.9" reverb="0.3"/>
+    <note measure="13" beat="3.5" sample="sound-library.wav" method="chirp" duration="1.5" startPosition="10.4555" gain="0.65" dry="0.4" reverb="0.4" ring="0.5"/>
+    <note measure="13" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.265" dry="1"/>
+    <note measure="13" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.282" dry="1"/>
+    <note measure="14" beat="1" sample="sound-library.wav" method="transform" duration="1" startPosition="10.3155" gain="0.65" dry="0.4" reverb="0.3" ring="0.5"/>
+    <note measure="14" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.276" dry="1"/>
+    <note measure="14" beat="2" sample="sound-library.wav" method="transform" duration="1" startPosition="10.4555" faderRate="8" faderOpenPercentage="0.35" gain="0.65" dry="0.3" reverb="0.3" flanger="0.6"/>
+    <note measure="14" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.266" dry="1"/>
+    <note measure="14" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.2515" speed="1.335" cycles="1" stroke="1" gain="0.222" dry="0.9" reverb="0.3"/>
+    <note measure="14" beat="3.5" sample="sound-library.wav" method="orbit" duration="1.5" startPosition="10.6555" gain="0.65" dry="0.5" reverb="0.4" flanger="0.5"/>
+    <note measure="14" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.241" dry="1"/>
+    <note measure="14" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.756" speed="1.498" cycles="1" stroke="1" gain="0.664" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="14" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.259" dry="1"/>
+    <note measure="15" beat="1" sample="sound-library.wav" method="baby" duration="4" startPosition="56.5" speed="1" cycles="1" stroke="1" gain="0.81" dry="0.4" reverb="0.5" flanger="0.3"/>
+    <note measure="15" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.3155" speed="0.8" gain="0.52" dry="0.5" reverb="0.4" ring="0.4"/>
+    <note measure="15" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.287" dry="1"/>
+    <note measure="15" beat="1.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.407" speed="1.335" cycles="1" stroke="1" gain="0.753" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="2.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.457" speed="1.122" cycles="1" stroke="1" gain="0.912" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.76" speed="1" cycles="1" stroke="1" gain="1.035" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.227" dry="1"/>
+    <note measure="15" beat="3" sample="sound-library.wav" method="baby" duration="2" startPosition="2.86" speed="1" cycles="1" stroke="1" forward="false" gain="0.5" dry="0.4" reverb="0.5"/>
+    <note measure="15" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.271" dry="1"/>
+    <note measure="15" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.665" speed="1.122" cycles="1" stroke="1" gain="0.912" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="3.9834" sample="sound-library.wav" method="baby" duration="2" startPosition="93.6344" speed="1" cycles="1" stroke="1" gain="0.342" dry="0.9" reverb="0.3"/>
+    <note measure="15" beat="4.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.276" speed="1.335" cycles="1" stroke="1" gain="0.753" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="4.775" sample="sound-library.wav" method="baby" duration="1.5" startPosition="82.833" speed="1.498" cycles="1" stroke="1" gain="0.664" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="15" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.237" dry="1"/>
+    <note measure="16" beat="1" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.0155" gain="0.65" dry="0.7" reverb="0.3"/>
+    <note measure="16" beat="1.5" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="10.4555" speed="1.8" gain="0.65" dry="0.7" reverb="0.3"/>
+    <note measure="16" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.248" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.27" dry="1"/>
+    <note measure="16" beat="2.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.298" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="2.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.347" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.285" dry="1"/>
+    <note measure="16" beat="2.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.086" speed="1.682" cycles="1" stroke="1" gain="0.584" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="16" beat="3.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.397" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.581" speed="1.498" cycles="1" stroke="1" gain="0.664" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="16" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.446" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.372" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.59" speed="1.335" cycles="1" stroke="1" gain="0.753" dry="0.5" chorus="0.5" reverb="0.55"/>
+    <note measure="16" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5691" speed="1.17" cycles="1" stroke="1" gain="0.27" dry="1"/>
+    <note measure="16" beat="3.9335" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.425" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.0585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.478" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.1835" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.531" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.496" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.585" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.4335" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.638" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="16" beat="4.5585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.691" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.6835" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.744" dry="0.8" reverb="0.3"/>
+    <note measure="16" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="16" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.404" dry="1"/>
+    <note measure="16" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.382" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.5" reverb="0.3"/>
+  </instrument>
+
+  <!-- Drop: full groove, motor scratches, explicit general-parameter scratches, all four effects -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="17" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="0.9" handPressure="0.7" motorSpeed="1" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="17" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.248" dry="1"/>
+    <note measure="17" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.264" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="17" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="17" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.743" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="17" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.339" dry="1"/>
+    <note measure="17" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="17" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.209" dry="1"/>
+    <note measure="17" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="17" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="17" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.362" dry="1"/>
+    <note measure="17" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="17" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.222" dry="1"/>
+    <note measure="17" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.836" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="17" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="17" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.124" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="17" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.403" dry="1"/>
+    <note measure="17" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="17" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.22" dry="1"/>
+    <note measure="17" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="17" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="17" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.326" dry="1"/>
+    <note measure="17" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.102" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="1" sample="sound-library.wav" method="orbit" duration="1" startPosition="12.0903" gain="0.6" dry="0.9" reverb="0.2"/>
+    <note measure="18" beat="1.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.146" dry="1"/>
+    <note measure="18" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.196" dry="1"/>
+    <note measure="18" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.195" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="18" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.935" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.377" dry="1"/>
+    <note measure="18" beat="2.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.154" dry="1"/>
+    <note measure="18" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="18" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.239" dry="1"/>
+    <note measure="18" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="18" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="18" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.336" dry="1"/>
+    <note measure="18" beat="3" sample="sound-library.wav" method="orbit" duration="2" startPosition="10.3155" speed="1" handPressure="0.6" motorSpeed="0.8" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="18" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5683" speed="1.19" cycles="1" stroke="1" gain="0.195" dry="1"/>
+    <note measure="18" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.494" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="18" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="18" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="18" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.346" dry="1"/>
+    <note measure="18" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.247" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="4.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.166" dry="1"/>
+    <note measure="18" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.196" dry="1"/>
+    <note measure="18" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="18" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.544" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="18" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="18" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.342" dry="1"/>
+    <note measure="19" beat="1" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="19" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.204" dry="1"/>
+    <note measure="19" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="19" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.368" dry="1"/>
+    <note measure="19" beat="1.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.629" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="19" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.204" dry="1"/>
+    <note measure="19" beat="2.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.902" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="19" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="19" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.754" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.356" dry="1"/>
+    <note measure="19" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="19" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.223" dry="1"/>
+    <note measure="19" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="19" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.395" dry="1"/>
+    <note measure="19" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.685" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="19" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5687" speed="1.18" cycles="1" stroke="1" gain="0.239" dry="1"/>
+    <note measure="19" beat="4.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.423" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="19" beat="4.775" sample="sound-library.wav" method="baby" duration="1.5" startPosition="82.252" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="19" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="19" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.331" dry="1"/>
+    <note measure="20" beat="1" sample="sound-library.wav" method="transform" duration="1" startPosition="10.3155" gain="0.65" dry="0.8" flanger="0.4"/>
+    <note measure="20" beat="1.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.16" dry="1"/>
+    <note measure="20" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.235" dry="1"/>
+    <note measure="20" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="20" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.366" dry="1"/>
+    <note measure="20" beat="2" sample="sound-library.wav" method="scribble" duration="1" startPosition="10.6555" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="2.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.156" dry="1"/>
+    <note measure="20" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="20" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="20" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="20" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="20" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5687" speed="1.18" cycles="1" stroke="1" gain="0.377" dry="1"/>
+    <note measure="20" beat="2.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.358" speed="1.682" cycles="1" stroke="1" gain="0.649" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="20" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.239" dry="1"/>
+    <note measure="20" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.682" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="20" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="20" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="20" beat="3.7834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7119" speed="1.335" cycles="1" stroke="1" gain="0.476" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="20" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.647" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3"/>
+    <note measure="20" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.367" dry="1"/>
+    <note measure="20" beat="4" sample="sound-library.wav" method="baby" duration="0.5" startPosition="11.4883" gain="0.6" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="4.0334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7231" speed="1.189" cycles="1" stroke="1" gain="0.504" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="4.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.163" dry="1"/>
+    <note measure="20" beat="4.2834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7375" speed="1" cycles="1" stroke="1" gain="0.55" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.205" dry="1"/>
+    <note measure="20" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="20" beat="4.5334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7458" speed="0.891" cycles="1" stroke="1" gain="0.583" dry="0.9" reverb="0.2"/>
+    <note measure="20" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="20" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.416" dry="0.8" flanger="0.35"/>
+    <note measure="20" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.772" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="21" beat="1" sample="sound-library.wav" method="orbit" duration="2" startPosition="10.0155" speed="1.2" cycles="3" stroke="0.3" faderRate="4" faderOpenPercentage="0.3" faderOffset="0.1" gain="0.65" dry="0.9" chorus="0.3"/>
+    <note measure="21" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.239" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.968" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="21" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="21" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.988" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="21" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.409" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="21" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.214" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="21" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="21" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.365" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="3" sample="sound-library.wav" method="baby" duration="1" startPosition="10.8755" speed="1" handPressure="0.7" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="21" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="21" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.238" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.683" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="21" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="21" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.584" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="21" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.326" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="21" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.197" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="21" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="21" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.339" dry="0.8" flanger="0.35"/>
+    <note measure="21" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.913" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="22" beat="1" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.3155" gain="0.65" dry="0.7" reverb="0.2" ring="0.4"/>
+    <note measure="22" beat="1.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.157" dry="1"/>
+    <note measure="22" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5691" speed="1.17" cycles="1" stroke="1" gain="0.239" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.599" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="22" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="22" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.851" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="22" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.337" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="2.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.149" dry="1"/>
+    <note measure="22" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="22" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.235" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="22" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="22" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.388" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="3" sample="sound-library.wav" method="baby" duration="2" startPosition="10.4555" speed="1.1" handPressure="0.65" motorSpeed="1" handResponse="60" motorResponse="15" gain="0.65" dry="0.9" reverb="0.2"/>
+    <note measure="22" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.222" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.274" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="22" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="22" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="22" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="22" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.331" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.469" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.8" chorus="0.5" reverb="0.3" flanger="0.15"/>
+    <note measure="22" beat="4" sample="sound-library.wav" method="scribble" duration="0.5" startPosition="11.7867" gain="0.6" dry="0.9" reverb="0.2"/>
+    <note measure="22" beat="4.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.15" dry="1"/>
+    <note measure="22" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.224" dry="0.8" flanger="0.35"/>
+    <note measure="22" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="22" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.727" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="22" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="22" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5695" speed="1.16" cycles="1" stroke="1" gain="0.359" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="1" sample="sound-library.wav" method="transform" duration="1" startPosition="10.4555" faderRate="8" faderOpenPercentage="0.4" faderResponse="300" gain="0.65" dry="0.8" flanger="0.45"/>
+    <note measure="23" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.245" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="23" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.404" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="1.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.084" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="23" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.224" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="2.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.082" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="23" beat="2.5" sample="sound-library.wav" method="orbit" duration="1.5" startPosition="10.6555" speed="1.1" forward="false" gain="0.65" dry="0.7" chorus="0.3" reverb="0.3" flanger="0.2" ring="0.15"/>
+    <note measure="23" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="23" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.784" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.342" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="23" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.222" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="1"/>
+    <note measure="23" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.326" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.811" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="23" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.223" dry="0.8" flanger="0.35"/>
+    <note measure="23" beat="4.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.995" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="23" beat="4.775" sample="sound-library.wav" method="baby" duration="1.5" startPosition="83.685" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="23" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="23" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5687" speed="1.18" cycles="1" stroke="1" gain="0.399" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="1.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.141" dry="1"/>
+    <note measure="24" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.222" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="24" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.329" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="2.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.153" dry="1"/>
+    <note measure="24" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="24" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.217" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="24" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="24" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.411" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="2.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.575" speed="1.682" cycles="1" stroke="1" gain="0.649" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="24" beat="3.2834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.6995" speed="1.498" cycles="1" stroke="1" gain="0.449" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.221" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.87" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="24" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="24" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.4434" speed="1" cycles="1" stroke="1" gain="0.342" dry="0.9" reverb="0.3"/>
+    <note measure="24" beat="3.5334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7119" speed="1.335" cycles="1" stroke="1" gain="0.476" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="24" beat="3.7834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7231" speed="1.189" cycles="1" stroke="1" gain="0.504" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.25"/>
+    <note measure="24" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.234" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" ring="0.1"/>
+    <note measure="24" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5706" speed="1.13" cycles="1" stroke="1" gain="0.364" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="4.0334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7375" speed="1" cycles="1" stroke="1" gain="0.55" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="4.1337" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.134" dry="1"/>
+    <note measure="24" beat="4.2834" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7458" speed="0.891" cycles="1" stroke="1" gain="0.583" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="4.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.744" dry="0.8" reverb="0.4"/>
+    <note measure="24" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.245" dry="0.8" flanger="0.35"/>
+    <note measure="24" beat="4.5334" sample="sound-library.wav" method="baby" duration="0.4" startPosition="8.7567" speed="0.749" cycles="1" stroke="1" gain="0.636" dry="0.8" reverb="0.3"/>
+    <note measure="24" beat="4.5585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.744" dry="0.8" reverb="0.4"/>
+    <note measure="24" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.373" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="24" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="24" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.233" dry="0.8" reverb="0.2"/>
+  </instrument>
+
+  <!-- Breakdown: lead exposed with chorus and reverb, gated lead scratches -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="25" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="0.9" gain="0.52" dry="0.5" reverb="0.45"/>
+    <note measure="25" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.254" dry="0.8" reverb="0.2"/>
+    <note measure="25" beat="1.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.864" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="2.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.494" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.341" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.234" dry="0.8" reverb="0.2"/>
+    <note measure="25" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.2515" speed="1.335" cycles="1" stroke="1" gain="0.222" dry="0.9" reverb="0.3"/>
+    <note measure="25" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5687" speed="1.18" cycles="1" stroke="1" gain="0.272" dry="0.8" reverb="0.2"/>
+    <note measure="25" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.115" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="4.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.507" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="4.7" sample="sound-library.wav" method="transform" duration="2" startPosition="82.5" speed="1" cycles="1" stroke="1" faderRate="8" faderOpenPercentage="0.45" faderResponse="400" gain="1.15" dry="0.6" reverb="0.3" flanger="0.5"/>
+    <note measure="25" beat="4.775" sample="sound-library.wav" method="baby" duration="1.5" startPosition="82.643" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="25" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="25" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.239" dry="0.8" reverb="0.2"/>
+    <note measure="26" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.287" dry="0.8" reverb="0.2"/>
+    <note measure="26" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.234" dry="0.8" reverb="0.2"/>
+    <note measure="26" beat="2.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.404" speed="1.682" cycles="1" stroke="1" gain="0.649" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="26" beat="3" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.52" dry="0.5" reverb="0.45"/>
+    <note measure="26" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.883" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="26" beat="3.4834" sample="sound-library.wav" method="baby" duration="3" startPosition="93.1581" speed="1.498" cycles="1" stroke="1" gain="0.187" dry="0.9" reverb="0.3"/>
+    <note measure="26" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.237" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="26" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.277" dry="0.8" reverb="0.2"/>
+    <note measure="26" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="26" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.568" speed="1.2" cycles="1" stroke="1" gain="0.272" dry="0.8" reverb="0.2"/>
+    <note measure="26" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.163" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="27" beat="1" sample="sound-library.wav" method="orbit" duration="2" startPosition="10.3155" speed="1" gain="0.52" dry="0.4" reverb="0.4" ring="0.5"/>
+    <note measure="27" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.564" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="27" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.708" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="27" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.231" dry="0.8" reverb="0.2"/>
+    <note measure="27" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="27" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.571" speed="1.12" cycles="1" stroke="1" gain="0.229" dry="0.8" reverb="0.2"/>
+    <note measure="27" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.471" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="27" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.27" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="27" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.26" dry="0.8" reverb="0.2"/>
+    <note measure="27" beat="4.2334" sample="sound-library.wav" method="baby" duration="1.5" startPosition="93.7299" speed="1" cycles="1" stroke="1" gain="0.342" dry="0.9" reverb="0.3"/>
+    <note measure="27" beat="4.7" sample="sound-library.wav" method="transform" duration="2" startPosition="82.5" speed="1.498" cycles="1" stroke="1" faderRate="8" faderOpenPercentage="0.45" faderResponse="400" gain="0.737" dry="0.6" reverb="0.3" flanger="0.5"/>
+    <note measure="27" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="27" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5676" speed="1.21" cycles="1" stroke="1" gain="0.236" dry="0.8" reverb="0.2"/>
+    <note measure="27" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.335" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="28" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.746" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="28" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.662" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="28" beat="1.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="28" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5703" speed="1.14" cycles="1" stroke="1" gain="0.24" dry="0.8" reverb="0.2"/>
+    <note measure="28" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="28" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5653" speed="1.27" cycles="1" stroke="1" gain="0.292" dry="0.8" reverb="0.2"/>
+    <note measure="28" beat="3" sample="sound-library.wav" method="baby" duration="2" startPosition="2.86" speed="1" cycles="1" stroke="1" forward="false" gain="0.5" dry="0.4" reverb="0.5"/>
+    <note measure="28" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.635" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="28" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.372" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="3.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="28" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5645" speed="1.29" cycles="1" stroke="1" gain="0.232" dry="0.8" reverb="0.2"/>
+    <note measure="28" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="81.243" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.6" chorus="0.6" reverb="0.5"/>
+    <note measure="28" beat="3.9335" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.425" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.0585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.478" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.1835" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.531" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.3085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.585" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.4335" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.638" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="28" beat="4.5585" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.691" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.6835" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.744" dry="0.8" reverb="0.3"/>
+    <note measure="28" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="28" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.399" dry="0.8" flanger="0.3"/>
+    <note measure="28" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.065" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+  </instrument>
+
+  <!-- Outro: lighter groove, final lead phrase, closing vocal scratches -->
+  <instrument instrument="ScratchInstrument" dry="1" chorus="0" reverb="0" flanger="0" ring="0">
+    <note measure="29" beat="1" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="29" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.243" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.146" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="29" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.3"/>
+    <note measure="29" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.047" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="29" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.361" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="29" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.223" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="2.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="29" beat="2.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="29" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.399" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="3" sample="sound-library.wav" method="transform" duration="1" startPosition="10.3155" gain="0.65" dry="0.7" flanger="0.4"/>
+    <note measure="29" beat="3.3586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="29" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.246" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.795" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="29" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.3"/>
+    <note measure="29" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.693" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="29" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.397" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="4.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9093" speed="1.122" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="29" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5657" speed="1.26" cycles="1" stroke="1" gain="0.217" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="4.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.8254" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="29" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="29" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5649" speed="1.28" cycles="1" stroke="1" gain="0.407" dry="0.8" flanger="0.3"/>
+    <note measure="29" beat="4.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="82.291" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="30" beat="1" sample="sound-library.wav" method="scribble" duration="1" startPosition="10.6555" gain="0.65" dry="0.8" reverb="0.3"/>
+    <note measure="30" beat="1.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.238" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="1.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="84" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="30" beat="1.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.3"/>
+    <note measure="30" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.998" speed="1.498" cycles="1" stroke="1" gain="0.737" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="30" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5661" speed="1.25" cycles="1" stroke="1" gain="0.362" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="2" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="1" handPressure="0.7" gain="0.65" dry="0.8" reverb="0.4"/>
+    <note measure="30" beat="2.2334" sample="sound-library.wav" method="baby" duration="0.5" startPosition="93.9209" speed="1" cycles="1" stroke="1" gain="0.38" dry="1"/>
+    <note measure="30" beat="2.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5664" speed="1.24" cycles="1" stroke="1" gain="0.198" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="2.6084" sample="sound-library.wav" method="baby" duration="0.75" startPosition="93.8018" speed="1.498" cycles="1" stroke="1" gain="0.207" dry="1"/>
+    <note measure="30" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="30" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5691" speed="1.17" cycles="1" stroke="1" gain="0.368" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="3.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5718" speed="1.1" cycles="1" stroke="1" gain="0.214" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="3.425" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.164" speed="1.335" cycles="1" stroke="1" gain="0.837" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="30" beat="3.4834" sample="sound-library.wav" method="baby" duration="1" startPosition="93.7614" speed="1.335" cycles="1" stroke="1" gain="0.246" dry="1"/>
+    <note measure="30" beat="3.6086" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.32" dry="1"/>
+    <note measure="30" beat="3.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.9" reverb="0.3"/>
+    <note measure="30" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5668" speed="1.23" cycles="1" stroke="1" gain="0.382" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="3.925" sample="sound-library.wav" method="baby" duration="0.5" startPosition="83.333" speed="1.122" cycles="1" stroke="1" gain="1.013" dry="0.7" chorus="0.5" reverb="0.4" flanger="0.1"/>
+    <note measure="30" beat="3.9834" sample="sound-library.wav" method="baby" duration="2" startPosition="93.6344" speed="1" cycles="1" stroke="1" gain="0.342" dry="0.9" reverb="0.3"/>
+    <note measure="30" beat="4" sample="sound-library.wav" method="orbit" duration="1" startPosition="10.8755" gain="0.65" dry="0.7" reverb="0.4" ring="0.3"/>
+    <note measure="30" beat="4.3837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.248" dry="0.8" flanger="0.3"/>
+    <note measure="30" beat="4.85" sample="sound-library.wav" method="baby" duration="1" startPosition="82.252" speed="1" cycles="1" stroke="1" gain="1.035" dry="0.5" chorus="0.5" reverb="0.6"/>
+    <note measure="30" beat="4.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="30" beat="4.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5641" speed="1.3" cycles="1" stroke="1" gain="0.195" dry="0.8" reverb="0.3"/>
+    <note measure="31" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="10.0155" speed="0.9" gain="0.65" dry="0.6" chorus="0.2" reverb="0.5"/>
+    <note measure="31" beat="1.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.476" speed="1.498" cycles="1" stroke="1" gain="0.664" dry="0.5" chorus="0.5" reverb="0.6"/>
+    <note measure="31" beat="1.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5672" speed="1.22" cycles="1" stroke="1" gain="0.236" dry="0.8" reverb="0.3"/>
+    <note measure="31" beat="1.9834" sample="sound-library.wav" method="baby" duration="2" startPosition="93.7303" speed="0.749" cycles="1" stroke="1" gain="0.528" dry="0.9" reverb="0.3"/>
+    <note measure="31" beat="2.85" sample="sound-library.wav" method="baby" duration="1" startPosition="81.902" speed="1.335" cycles="1" stroke="1" gain="0.753" dry="0.5" chorus="0.5" reverb="0.6"/>
+    <note measure="31" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="1"/>
+    <note measure="31" beat="2.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5699" speed="1.15" cycles="1" stroke="1" gain="0.217" dry="0.8" reverb="0.3"/>
+    <note measure="31" beat="3" sample="sound-library.wav" method="chirp" duration="1" startPosition="10.4555" gain="0.65" dry="0.6" reverb="0.5"/>
+    <note measure="31" beat="3.85" sample="sound-library.wav" method="baby" duration="1" startPosition="83.736" speed="1.122" cycles="1" stroke="1" gain="0.912" dry="0.5" chorus="0.5" reverb="0.6"/>
+    <note measure="31" beat="3.8837" sample="sound-library.wav" method="baby" duration="0.2" startPosition="13.5714" speed="1.11" cycles="1" stroke="1" gain="0.205" dry="0.8" reverb="0.3"/>
+    <note measure="31" beat="4" sample="sound-library.wav" method="baby" duration="1" startPosition="10.8755" speed="0.8" gain="0.65" dry="0.6" reverb="0.5" ring="0.2"/>
+    <note measure="32" beat="1" sample="sound-library.wav" method="baby" duration="2" startPosition="2.86" speed="1" cycles="1" stroke="1" forward="false" gain="0.5" dry="0.4" reverb="0.6"/>
+    <note measure="32" beat="1.9834" sample="sound-library.wav" method="baby" duration="2" startPosition="93.6344" speed="1" cycles="1" stroke="1" gain="0.38" dry="0.9" reverb="0.4"/>
+    <note measure="32" beat="2.7" sample="sound-library.wav" method="baby" duration="2" startPosition="82.74" speed="1" cycles="1" stroke="1" gain="1.15" dry="0.5" chorus="0.5" reverb="0.7"/>
+    <note measure="32" beat="2.8085" sample="sound-library.wav" method="baby" duration="0.35" startPosition="8.4453" speed="1" cycles="1" stroke="1" gain="0.62" dry="0.7" reverb="0.6"/>
+    <note measure="32" beat="2.8586" sample="sound-library.wav" method="baby" duration="0.25" startPosition="12.8105" speed="1.08" cycles="1" stroke="1" gain="0.4" dry="0.9" reverb="0.4"/>
+    <note measure="32" beat="3" sample="sound-library.wav" method="baby" duration="2" startPosition="56.5" speed="1" cycles="1" stroke="1" gain="0.9" dry="0.4" chorus="0.3" reverb="0.6" flanger="0.2" ring="0.1"/>
+  </instrument>
+
+</score>
