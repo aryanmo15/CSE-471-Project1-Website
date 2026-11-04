@@ -1,55 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Implementation and grading details for the four-effect audio processing component in CSE 471 Project 1.">
-  <title>Effects Component | CSE 471</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Implementation and grading details for the four-effect audio processing component in CSE 471 Project 1." name="description"/>
+<title>Effects Component | CSE 471</title>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-<header class="site-header"><nav class="nav container" aria-label="Main navigation">
-  <a class="brand" href="index.html"><span class="brand-mark">S</span> CSE 471 / PROJECT 1</a>
-  <div class="nav-links"><a href="index.html">Overview</a><a href="effects.html" aria-current="page">Effects</a><a href="scratching.html">Scratching</a><a href="index.html#audio">Listen</a></div>
+<header class="site-header"><nav aria-label="Main navigation" class="nav container">
+<a class="brand" href="index.html"><span class="brand-mark">S</span> CSE 471 / PROJECT 1</a>
+<div class="nav-links"><a href="index.html">Overview</a><a aria-current="page" href="effects.html">Effects</a><a href="scratching.html">Scratching</a><a href="index.html#audio">Listen</a></div>
 </nav></header>
 <main>
-  <section class="subhero"><div class="container"><p class="eyebrow">Component 02 / Audio processing</p><h1>Effects processor</h1><p class="lede">Four independent DSP effects and controllable sends, applied to each stereo audio frame as the synthesizer runs.</p><p class="meta">Component owner: <strong>Aryan Moparti</strong></p></div></section>
-  <section class="section"><div class="container">
-    <div class="section-head"><h2>Effects implemented</h2><p>The processor supports dry passthrough, individual wet buses and a combined output. Each effect retains its state between audio frames.</p></div>
-    <div class="feature-list">
-      <article class="card"><span class="tag">Effect 01</span><h3>Chorus</h3><p>Two delayed copies of the input move slowly in time, using sinusoidally varied delay lengths near 22 milliseconds. Different phase offsets in the stereo channels produce a wider sound.</p></article>
-      <article class="card"><span class="tag">Effect 02</span><h3>Reverberation</h3><p>Four feedback comb filters simulate repeated reflections. Two all-pass filters diffuse the reflections to create a reverb tail distinct from a single echo.</p></article>
-      <article class="card"><span class="tag">Effect 03</span><h3>Flanging</h3><p>A short modulated delay is mixed with the current signal and fed back into the delay. The shifting delay creates moving cancellations and resonances.</p></article>
-      <article class="card"><span class="tag">Effect 04</span><h3>Ring modulation</h3><p>The incoming sample is multiplied by a sinusoidal carrier at 74 Hz. The resulting frequency sidebands give the output a metallic character.</p></article>
-    </div>
-  </div></section>
-  <section class="section"><div class="container">
-    <div class="section-head"><h2>Routing and sample streaming</h2><p>All effects are parallel so each note can specify a different amount of each effect.</p></div>
-    <div class="grid two">
-      <article class="card"><h3>Per-note routing</h3><p>Each instrument generates a stereo frame. The frame is multiplied by five independently set levels: <code>dry</code>, <code>chorus</code>, <code>reverb</code>, <code>flanger</code> and <code>ring</code>. The values are accumulated into five stereo buses.</p><p>Settings on a <code>&lt;note&gt;</code> override defaults from its enclosing <code>&lt;instrument&gt;</code>.</p></article>
-      <article class="card"><h3>Bounded memory</h3><p><code>CSynthesizer::Generate()</code> invokes <code>CEffects::Process()</code> once for each audio frame. The effects use compact circular-delay and feedback buffers rather than loading the entire final selection into RAM.</p><p>A 2.5-second processing tail lets delayed sound decay after the last instrument note.</p></article>
-    </div>
-    <pre class="code-sample"><code>&lt;instrument instrument="ScratchInstrument" dry="0.7" reverb="0.3"&gt;
+<section class="subhero"><div class="container"><p class="eyebrow">Component 02 / Audio processing</p><h1>Effects processor</h1><p class="lede">Four independent DSP effects and controllable sends, applied to each stereo audio frame as the synthesizer runs.</p><p class="meta">Component owner: <strong>Aryan Moparti</strong></p></div></section>
+<section class="section"><div class="container">
+<div class="section-head"><h2>Effects implemented</h2><p>The processor supports dry passthrough, individual wet buses and a combined output. Each effect retains its state between audio frames.</p></div>
+<div class="feature-list">
+<article class="card"><span class="tag">Effect 01</span><h3>Chorus</h3><p>Two delayed copies of the input move slowly in time, using sinusoidally varied delay lengths near 22 milliseconds. Different phase offsets in the stereo channels produce a wider sound.</p></article>
+<article class="card"><span class="tag">Effect 02</span><h3>Reverberation</h3><p>Four feedback comb filters simulate repeated reflections. Two all-pass filters diffuse the reflections to create a reverb tail distinct from a single echo.</p></article>
+<article class="card"><span class="tag">Effect 03</span><h3>Flanging</h3><p>A short modulated delay is mixed with the current signal and fed back into the delay. The shifting delay creates moving cancellations and resonances.</p></article>
+<article class="card"><span class="tag">Effect 04</span><h3>Ring modulation</h3><p>The incoming sample is multiplied by a sinusoidal carrier at 74 Hz. The resulting frequency sidebands give the output a metallic character.</p></article>
+</div>
+</div></section>
+<section class="section"><div class="container">
+<div class="section-head"><h2>Routing and sample streaming</h2><p>All effects are parallel so each note can specify a different amount of each effect.</p></div>
+<div class="grid two">
+<article class="card"><h3>Per-note routing</h3><p>Each instrument generates a stereo frame. The frame is multiplied by five independently set levels: <code>dry</code>, <code>chorus</code>, <code>reverb</code>, <code>flanger</code> and <code>ring</code>. The values are accumulated into five stereo buses.</p><p>Settings on a <code>&lt;note&gt;</code> override defaults from its enclosing <code>&lt;instrument&gt;</code>.</p></article>
+<article class="card"><h3>Bounded memory</h3><p><code>CSynthesizer::Generate()</code> invokes <code>CEffects::Process()</code> once for each audio frame. The effects use compact circular-delay and feedback buffers rather than loading the entire final selection into RAM.</p><p>A 2.5-second processing tail lets delayed sound decay after the last instrument note.</p></article>
+</div>
+<pre class="code-sample"><code>&lt;instrument instrument="ScratchInstrument" dry="0.7" reverb="0.3"&gt;
   &lt;note measure="1" beat="1" duration="2"
         sample="are-you-ready.wav" method="baby"
         chorus="0.5" flanger="0.25" /&gt;
 &lt;/instrument&gt;</code></pre>
-  </div></section>
-  <section class="section"><div class="container">
-    <div class="section-head"><h2>Individual grading criteria</h2><p>The code implements the features listed in the effects rubric. Successful compilation alone does not establish how clearly they can be heard.</p></div>
-    <div class="table-wrap"><table class="table"><thead><tr><th>Points</th><th>Criterion</th><th>Implementation</th></tr></thead><tbody>
-      <tr><td>10</td><td>Component passes audio</td><td>Direct dry bus bypasses all effects.</td></tr>
-      <tr><td>20</td><td>One effect</td><td>Chorus, reverb, flanging and ring modulation are implemented.</td></tr>
-      <tr><td>30</td><td>Three effects</td><td>Four distinct processors are available.</td></tr>
-      <tr><td>40</td><td>Controllable effects send</td><td>Per-note and per-instrument dry/wet levels controlled by XML.</td></tr>
-      <tr><td>50</td><td>Four effects</td><td>All four effects can be routed independently or mixed.</td></tr>
-    </tbody></table></div>
-    <p class="small-note">The final selection score includes chorus sends on 113 notes, reverb on 260, flanging on 81, and ring modulation on 20. A note can use multiple sends. Grading is determined by the instructor's evaluation of the implementation and recorded demonstration.</p>
-  </div></section>
-  <section class="section"><div class="container">
-    <div class="section-head"><h2>Effects demonstration</h2><p>Short selection using scratching audio as the source. The 13.25-second XML score compares dry playback, each of the four effects, and a combined mix.</p></div>
-    <div class="card"><span class="tag">Individual demo / 10 to 15 seconds</span><h3>Effects demonstration</h3><audio class="player" controls preload="none" aria-label="Play effects demonstration"><source src="effects_demo.mp3" type="audio/mpeg"><source src="effects_demo.wav" type="audio/wav"></audio><div class="file-links"><a href="effects_demo.score" download>Download XML demonstration score</a><a href="effects_demo.wav" download>Download WAV</a><a href="index.html#audio">All audio recordings</a></div><p class="small-note" style="margin-top:18px">Source files: <code>Effects.h</code>, <code>Effects.cpp</code>, <code>Instrument.cpp</code>, and <code>Synthesizer.cpp</code>.</p></div>
-  </div></section>
+</div></section>
+<section class="section"><div class="container">
+<div class="section-head"><h2>How the effects component meets the rubric</h2><p>Each level below is tied to a concrete signal-processing feature in the C++ implementation. All effects run as the synthesizer generates one stereo sample frame at a time.</p></div>
+<div class="table-wrap"><table class="table"><thead><tr><th>Points</th><th>Criterion</th><th>How our implementation addresses it</th></tr></thead><tbody>
+<tr><td>10</td><td>Component passes audio</td><td>Each active instrument is mixed into the direct <code>EFFECT_DRY</code> bus. <code>CEffects::Process()</code> begins with this unprocessed signal, so audio can pass through unchanged when all effects sends are zero.</td></tr>
+<tr><td>20</td><td>One effect</td><td>Four working effects are implemented in <code>Effects.cpp</code>. For example, <code>CChorusEffect</code> reads two slowly modulated, fractionally interpolated delays around 22 ms and outputs their average.</td></tr>
+<tr><td>30</td><td>Three effects</td><td>In addition to chorus, <code>CReverbEffect</code> uses four feedback comb filters and two all-pass filters per channel, while <code>CFlangerEffect</code> blends a 3 ms-centered modulated delay with feedback. <code>CRingModEffect</code> adds a fourth distinct process using a 74 Hz sinusoidal carrier.</td></tr>
+<tr><td>40</td><td>Controllable effects sends</td><td><code>CInstrument::LoadEffectSends()</code> reads <code>dry</code>, <code>chorus</code>, <code>reverb</code>, <code>flanger</code>, and <code>ring</code> levels from the parent XML <code>&lt;instrument&gt;</code> and allows individual <code>&lt;note&gt;</code> values to override them. <code>CSynthesizer::Generate()</code> accumulates five separate stereo buses.</td></tr>
+<tr><td>50</td><td>Four effects</td><td><code>CEffects</code> owns persistent chorus, reverb, flanger, and ring-modulation processors. It processes the four wet buses independently and combines their outputs with the dry bus. Multiple effects can be active on the same note, as demonstrated by the combined section of <code>effects_demo.score</code>.</td></tr>
+</tbody></table></div>
+<p class="small-note">The final selection includes chorus sends on 113 notes, reverb on 260, flanging on 81, and ring modulation on 20. These counts indicate score usage, while the instructor evaluates audible quality and whether all grading requirements are demonstrated.</p>
+<div class="section-head" style="margin-top:54px"><h2>What happens to one audio frame</h2><p>This is how the effects stay compatible with the project's streaming requirement.</p></div>
+<div class="grid two">
+<article class="card"><h3>1. Route note samples</h3><p>The scratching instrument outputs left and right sample values. For every active note, the synthesizer multiplies each channel by the XML dry and effect-send levels, then adds the results to the corresponding buses. Defaults come from the instrument tag; note attributes take precedence.</p></article>
+<article class="card"><h3>2. Process and mix</h3><p>The effects processor advances its circular buffers, modulation phases, and feedback filters once per frame. It mixes the wet returns with dry audio, checks for non-finite values, and bounds the output to the expected normalized range. A 2.5-second tail allows delayed effects to decay after the last note.</p></article>
+</div>
+</div></section>
+<section class="section"><div class="container">
+<div class="section-head"><h2>Effects demonstration</h2><p>Short selection using scratching audio as the source. The 13.25-second XML score compares dry playback, each of the four effects, and a combined mix.</p></div>
+<div class="card"><span class="tag">Individual demo / 10 to 15 seconds</span><h3>Effects demonstration</h3><audio aria-label="Play effects demonstration" class="player" controls="" preload="none"><source src="effects_demo.mp3" type="audio/mpeg"/><source src="effects_demo.wav" type="audio/wav"/></audio><div class="file-links"><a download="" href="effects_demo.score">Download XML demonstration score</a><a download="" href="effects_demo.wav">Download WAV</a><a href="index.html#audio">All audio recordings</a></div><p class="small-note" style="margin-top:18px">Source files: <code>Effects.h</code>, <code>Effects.cpp</code>, <code>Instrument.cpp</code>, and <code>Synthesizer.cpp</code>.</p></div>
+</div></section>
 </main>
 <footer class="footer container"><p>CSE 471 · Michigan State University · Fall 2026</p><p><a href="index.html">Back to project overview</a></p></footer>
 </body>

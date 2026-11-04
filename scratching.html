@@ -1,35 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Scratching synthesizer for CSE 471 Project 1, including record motion and cross-fader simulation.">
-  <title>Scratching Synthesizer | CSE 471</title><link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Scratching synthesizer for CSE 471 Project 1, including record motion and cross-fader simulation." name="description"/>
+<title>Scratching Synthesizer | CSE 471</title><link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-<header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="index.html"><span class="brand-mark">S</span> CSE 471 / PROJECT 1</a><div class="nav-links"><a href="index.html">Overview</a><a href="effects.html">Effects</a><a href="scratching.html" aria-current="page">Scratching</a><a href="index.html#audio">Listen</a></div></nav></header>
+<header class="site-header"><nav aria-label="Main navigation" class="nav container"><a class="brand" href="index.html"><span class="brand-mark">S</span> CSE 471 / PROJECT 1</a><div class="nav-links"><a href="index.html">Overview</a><a href="effects.html">Effects</a><a aria-current="page" href="scratching.html">Scratching</a><a href="index.html#audio">Listen</a></div></nav></header>
 <main>
-  <section class="subhero"><div class="container"><p class="eyebrow">Component 01 / Sound synthesis</p><h1>Scratching synthesizer</h1><p class="lede">A software model of turntable scratching based on record movement, sample position, playback velocity and cross-fader behavior.</p><p class="meta">Component owner: <strong>Michael Biggar</strong></p></div></section>
-  <section class="section"><div class="container"><div class="section-head"><h2>How it works</h2><p>The instrument reads performance commands from the XML score and synthesizes scratching by moving through recorded sound.</p></div>
-    <div class="grid three">
-      <article class="card"><span class="tag">Audio source</span><h3>Recorded sample</h3><p><code>CWaveLibrary</code> provides audio data. The scratch instrument samples the recording at a continuously updated position instead of playing the full recording at normal speed.</p></article>
-      <article class="card"><span class="tag">Record movement</span><h3>Motion model</h3><p>The scratch controller determines a target playback velocity. Hand and motor parameters influence acceleration and the actual velocity used to move through the sample.</p></article>
-      <article class="card"><span class="tag">Cross-fader</span><h3>Fader model</h3><p>The fader opens and closes the audible signal. Its rate, open percentage, timing offset and response can shape short rhythmic cuts.</p></article>
-    </div>
-  </div></section>
-  <section class="section"><div class="container"><div class="section-head"><h2>Scratch methods</h2><p>The synthesizer implements five named scratching methods that are used in the XML score.</p></div>
-    <div class="feature-list">
-      <article class="card"><h3>Baby</h3><p>Slower forward and backward movement without rapid fader cuts.</p></article>
-      <article class="card"><h3>Scribble</h3><p>Faster back-and-forth motion with more frequent cycles.</p></article>
-      <article class="card"><h3>Chirp</h3><p>Coordinated movement and short fader openings.</p></article>
-      <article class="card"><h3>Transform</h3><p>Repeating fader taps create rhythmic interruptions to the scratch audio.</p></article>
-      <article class="card"><h3>Orbit</h3><p>Forward and backward record motion forms alternating scratch strokes.</p></article>
-      <article class="card"><h3>Motor simulation</h3><p>Velocity blends motor-driven motion with hand-controlled motion using configurable pressure and response.</p></article>
-    </div>
-  </div></section>
-  <section class="section"><div class="container"><div class="section-head"><h2>Score parameters</h2><p>XML attributes configure performance per note. The program assigns defaults to parameters not included in a note.</p></div>
-    <div class="grid two">
-      <div class="card"><h3>Configurable controls</h3><ul class="list-clean details"><li><b>sample, method</b>: recording and scratch type.</li><li><b>startPosition, speed, cycles, stroke</b>: movement through the recording.</li><li><b>faderRate, faderOpenPercentage, faderOffset</b>: rhythmic gating.</li><li><b>handPressure, motorSpeed, handResponse, motorResponse</b>: physical motion behavior.</li><li><b>attack, release, gain</b>: amplitude shaping.</li></ul></div>
-      <div class="card"><h3>Example note</h3><pre class="code-sample"><code>&lt;instrument instrument="ScratchInstrument"&gt;
+<section class="subhero"><div class="container"><p class="eyebrow">Component 01 / Sound synthesis</p><h1>Scratching synthesizer</h1><p class="lede">A software model of turntable scratching based on record movement, sample position, playback velocity and cross-fader behavior.</p><p class="meta">Component owner: <strong>Michael Biggar</strong></p></div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>How it works</h2><p>The instrument reads performance commands from the XML score and synthesizes scratching by moving through recorded sound.</p></div>
+<div class="grid three">
+<article class="card"><span class="tag">Audio source</span><h3>Recorded sample</h3><p><code>CWaveLibrary</code> provides audio data. The scratch instrument samples the recording at a continuously updated position instead of playing the full recording at normal speed.</p></article>
+<article class="card"><span class="tag">Record movement</span><h3>Motion model</h3><p>The scratch controller determines a target playback velocity. Hand and motor parameters influence acceleration and the actual velocity used to move through the sample.</p></article>
+<article class="card"><span class="tag">Cross-fader</span><h3>Fader model</h3><p>The fader opens and closes the audible signal. Its rate, open percentage, timing offset and response can shape short rhythmic cuts.</p></article>
+</div>
+</div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>Scratch methods</h2><p>The synthesizer implements five named scratching methods that are used in the XML score.</p></div>
+<div class="feature-list">
+<article class="card"><h3>Baby</h3><p>Slower forward and backward movement without rapid fader cuts.</p></article>
+<article class="card"><h3>Scribble</h3><p>Faster back-and-forth motion with more frequent cycles.</p></article>
+<article class="card"><h3>Chirp</h3><p>Coordinated movement and short fader openings.</p></article>
+<article class="card"><h3>Transform</h3><p>Repeating fader taps create rhythmic interruptions to the scratch audio.</p></article>
+<article class="card"><h3>Orbit</h3><p>Forward and backward record motion forms alternating scratch strokes.</p></article>
+<article class="card"><h3>Motor simulation</h3><p>Velocity blends motor-driven motion with hand-controlled motion using configurable pressure and response.</p></article>
+</div>
+</div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>Score parameters</h2><p>XML attributes configure performance per note. The program assigns defaults to parameters not included in a note.</p></div>
+<div class="grid two">
+<div class="card"><h3>Configurable controls</h3><ul class="list-clean details"><li><b>sample, method</b>: recording and scratch type.</li><li><b>startPosition, speed, cycles, stroke</b>: movement through the recording.</li><li><b>faderRate, faderOpenPercentage, faderOffset</b>: rhythmic gating.</li><li><b>handPressure, motorSpeed, handResponse, motorResponse</b>: physical motion behavior.</li><li><b>attack, release, gain</b>: amplitude shaping.</li></ul></div>
+<div class="card"><h3>Example note</h3><pre class="code-sample"><code>&lt;instrument instrument="ScratchInstrument"&gt;
   &lt;note measure="2" beat="1"
         duration="1"
         sample="are-you-ready.wav"
@@ -37,22 +38,30 @@
         startPosition="0.38"
         speed="1.5" /&gt;
 &lt;/instrument&gt;</code></pre></div>
-    </div>
-  </div></section>
-  <section class="section"><div class="container"><div class="section-head"><h2>Individual grading rubric</h2><p>The criteria below come from the course's scratching component page. Final grading depends on demonstrated behavior, not the presence of a parameter name.</p></div>
-    <div class="table-wrap"><table class="table"><thead><tr><th>Points</th><th>Criterion</th></tr></thead><tbody>
-      <tr><td>10</td><td>Audio playback on demand from the sequencer</td></tr>
-      <tr><td>20</td><td>Attack and decay plus pitch variation</td></tr>
-      <tr><td>30</td><td>Two scratch methods simulated</td></tr>
-      <tr><td>35</td><td>Four scratch methods simulated</td></tr>
-      <tr><td>40</td><td>General parameterization for scratch methods</td></tr>
-      <tr><td>50</td><td>General method with a motor simulation</td></tr>
-    </tbody></table></div>
-    <p class="note" style="margin-top:20px">The source and accompanying XML include the five scratch methods, adjustable record motion, fader controls, and motor parameters. Final assessment of how well each feature is demonstrated is made by the course staff.</p>
-  </div></section>
-  <section class="section"><div class="container"><div class="section-head"><h2>Scratching demonstration</h2><p>The 14.4-second recording demonstrates the configured scratch methods and motion controls.</p></div>
-    <div class="card"><span class="tag">Individual demo</span><h3>Scratching playback</h3><audio class="player" controls preload="none" aria-label="Play scratching demonstration"><source src="scratch_demo.mp3" type="audio/mpeg"><source src="scratch_demo.wav" type="audio/wav"></audio><div class="file-links"><a href="scratch_demo.score" download>Download scratching score</a><a href="scratch_demo.wav" download>Download WAV</a><a href="index.html#audio">All audio recordings</a></div><p class="small-note" style="margin-top:18px">Source files include <code>ScratchInstrument.cpp</code>, <code>ScratchController.cpp</code>, <code>Fader.cpp</code> and their headers.</p></div>
-  </div></section>
+</div>
+</div></section>
+<section class="section"><div class="container">
+<div class="section-head"><h2>How the scratching component meets the rubric</h2><p>Each grading level is cumulative. The descriptions below identify the actual classes, note attributes, and behavior used to support each level.</p></div>
+<div class="table-wrap"><table class="table"><thead><tr><th>Points</th><th>Criterion</th><th>How our implementation addresses it</th></tr></thead><tbody>
+<tr><td>10</td><td>Audio playback on demand from the sequencer</td><td><code>CSynthesizer::Generate()</code> creates a <code>CScratchInstrument</code> when an XML note reaches its scheduled measure and beat. <code>SetNote()</code> selects the audio recording from <code>CWaveLibrary</code>; <code>Generate()</code> then produces one stereo frame at a time until the note ends.</td></tr>
+<tr><td>20</td><td>Attack, decay, and pitch variation</td><td>The amplitude envelope fades in and out using configurable <code>attack</code> and <code>release</code>. Playback position advances according to the current record velocity, so faster movement changes pitch. Output amplitude is also scaled by the absolute velocity to simulate a softer sound when the record moves slowly.</td></tr>
+<tr><td>30</td><td>Two scratch methods</td><td>The instrument implements baby and scribble scratches through different default velocities and cycle counts. Baby scratches use slower strokes; scribble scratches use faster, repeated strokes. Both appear in <code>scratch_demo.score</code>.</td></tr>
+<tr><td>35</td><td>Four scratch methods</td><td>The code supports five methods: baby, scribble, chirp, transform, and orbit. Chirp and transform modify the cross-fader timing, while orbit uses alternating forward and backward record motion. All five are included in the scratching demonstration.</td></tr>
+<tr><td>40</td><td>General parameterization of scratching</td><td><code>CScratchController</code> generates motion from <code>speed</code>, <code>cycles</code>, <code>stroke</code>, and <code>forward</code>. Fader controls include <code>faderRate</code>, <code>faderOpenPercentage</code>, <code>faderOffset</code>, and <code>faderResponse</code>. A score can override the presets on individual notes to construct customized scratches without adding another hardcoded method.</td></tr>
+<tr><td>50</td><td>General method with motor simulation</td><td><code>CScratchInstrument::Generate()</code> blends the hand's target scratch velocity with <code>motorSpeed</code> using <code>handPressure</code>. <code>handResponse</code> and <code>motorResponse</code> determine how quickly the actual velocity approaches the target, modeling acceleration and deceleration rather than instantaneous jumps.</td></tr>
+</tbody></table></div>
+<p class="small-note">These are the features supported by the submitted source and XML. The instructor and TA determine final credit based on the audible demonstrations and implementation.</p>
+<div class="section-head" style="margin-top:54px"><h2>Evidence for the 40- and 50-point levels</h2><p>These two levels depend on how record motion is generated, not simply on having five named scratch presets.</p></div>
+<div class="grid two">
+<article class="card"><span class="tag">40 points / Parameterized scratching</span><h3>One controller, adjustable performances</h3><p><code>GetTargetVelocity(time)</code> computes a forward and reverse motion cycle. The <code>stroke</code> parameter sets what fraction of the cycle is the forward stroke; <code>cycles</code> controls the repetitions; <code>speed</code> changes the playback rate; and <code>forward</code> reverses the direction.</p><p>Separately, <code>GetTargetFader(time)</code> controls rhythmic openings and closures. <code>CFader</code> smooths those changes using the configured response. In measure 4 of <code>scratch_demo.score</code>, two customized orbit notes vary the stroke, number of cycles, fader pattern, and playback direction.</p></article>
+<article class="card"><span class="tag">50 points / Motor simulation</span><h3>Hand motion and motor motion interact</h3><p>For each generated sample frame, the code calculates:</p><pre class="code-sample"><code>targetVelocity =
+  (1 - handPressure) * motorSpeed
+  + handPressure * scratchVelocity;</code></pre><p>It then moves the current velocity gradually toward that target using an exponential response based on <code>handResponse</code>, <code>motorResponse</code>, and sample period. The sample position is advanced by the resulting velocity.</p><p>Measure 5 of <code>scratch_demo.score</code> compares <code>handPressure="1"</code> (no motor contribution) with <code>handPressure="0.65"</code> and <code>motorSpeed="1.0"</code> (motor motion contributes 35% of the target).</p></article>
+</div>
+</div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>Scratching demonstration</h2><p>The 14.4-second recording demonstrates the configured scratch methods and motion controls.</p></div>
+<div class="card"><span class="tag">Individual demo</span><h3>Scratching playback</h3><audio aria-label="Play scratching demonstration" class="player" controls="" preload="none"><source src="scratch_demo.mp3" type="audio/mpeg"/><source src="scratch_demo.wav" type="audio/wav"/></audio><div class="file-links"><a download="" href="scratch_demo.score">Download scratching score</a><a download="" href="scratch_demo.wav">Download WAV</a><a href="index.html#audio">All audio recordings</a></div><p class="small-note" style="margin-top:18px">Source files include <code>ScratchInstrument.cpp</code>, <code>ScratchController.cpp</code>, <code>Fader.cpp</code> and their headers.</p></div>
+</div></section>
 </main>
 <footer class="footer container"><p>CSE 471 · Michigan State University · Fall 2026</p><p><a href="index.html">Back to project overview</a></p></footer>
 </body>
