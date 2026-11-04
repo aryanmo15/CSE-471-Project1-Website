@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CSE 471 Project 1: A multi-component music synthesizer with scratching synthesis and audio effects.">
+  <title>CSE 471 | Multi-Component Music Synthesizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">S</span> CSE 471 / PROJECT 1</a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="effects.html">Effects</a>
+        <a href="scratching.html">Scratching</a>
+        <a href="#audio">Listen</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Michigan State University · Computer Music</p>
+      <h1>A multi-component<br>music synthesizer.</h1>
+      <p class="lede">A C++ audio engine that reads an XML score, generates turntable-style scratching, and processes each stereo sample frame through a configurable effects system.</p>
+      <div class="button-row">
+        <a class="button" href="#audio">Listen to the project</a>
+        <a class="button ghost" href="#architecture">How it works</a>
+      </div>
+    </section>
+
+    <section class="section" id="project">
+      <div class="container">
+        <div class="section-head"><h2>Project overview</h2><p>An offline synthesizer written in C++ with a score-driven sequencer, a scratching instrument and a four-effect processor.</p></div>
+        <div class="grid three">
+          <article class="card"><span class="tag">01 / Format</span><h3>XML score</h3><p>Measures, beats and note attributes tell the synthesizer when to play and which effects to apply.</p></article>
+          <article class="card"><span class="tag">02 / Sound</span><h3>Scratching synthesis</h3><p>Recorded audio is played through a model of record motion and cross-fader behavior, controlled per note.</p></article>
+          <article class="card"><span class="tag">03 / Output</span><h3>Streaming stereo</h3><p>The system produces one audio frame at a time and writes 44,100 Hz, 16-bit stereo output.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="architecture">
+      <div class="container">
+        <div class="section-head"><h2>System architecture</h2><p>Each stage contributes to the final audio frame. Effects maintain small delay buffers rather than storing the full song.</p></div>
+        <div class="diagram" role="img" aria-label="XML score to sequencer to scratch synthesizer and effects to stereo WAV output">
+          <div class="step"><b>XML score</b><span>Timing and parameters</span></div>
+          <div class="step"><b>Sequencer</b><span>Activates notes by beat</span></div>
+          <div class="step"><b>Scratching + effects</b><span>Generates and processes frames</span></div>
+          <div class="step"><b>Stereo WAV</b><span>44.1 kHz · 16-bit</span></div>
+        </div>
+        <p class="small-note" style="margin-top:18px">The sequencer mixes active notes into a dry bus and four independently adjustable effects buses. The processor combines those streams into the output frame.</p>
+      </div>
+    </section>
+
+    <section class="section" id="audio">
+      <div class="container">
+        <div class="section-head"><h2>Listen</h2><p>The main musical selection and short component demonstrations are presented separately.</p></div>
+        <div class="grid three">
+          <article class="card"><span class="tag">Final composition</span><h3>[Final song title]</h3><p>Group composition. Target length: 60 to 90 seconds.</p>
+            <audio class="player" controls preload="none" aria-label="Play final composition"><source src="audio/final-song.mp3" type="audio/mpeg"><source src="audio/final-song.wav" type="audio/wav">Your browser does not support audio playback.</audio>
+            <div class="file-links"><a href="scores/final.score" download>Download XML score</a></div>
+          </article>
+          <article class="card"><span class="tag">Component demo</span><h3>Effects</h3><p>Dry reference followed by chorus, reverb, flanging, ring modulation and a combined example.</p>
+            <audio class="player" controls preload="none" aria-label="Play effects demo"><source src="audio/effects-demo.wav" type="audio/wav"></audio>
+            <div class="file-links"><a href="scores/effects_demo.score" download>Download demo score</a><a href="effects.html">Technical details</a></div>
+          </article>
+          <article class="card"><span class="tag">Component demo</span><h3>Scratching</h3><p>Turntable-inspired playback with controlled record speed, movement and fader modulation.</p>
+            <audio class="player" controls preload="none" aria-label="Play scratching demo"><source src="audio/scratching-demo.wav" type="audio/wav"></audio>
+            <div class="file-links"><a href="scores/scratch.score" download>Download demo score</a><a href="scratching.html">Technical details</a></div>
+          </article>
+        </div>
+        <p class="small-note" style="margin-top:15px">Audio players become active after the corresponding files are uploaded to the website's <code>audio</code> folder.</p>
+      </div>
+    </section>
+
+    <section class="section" id="score">
+      <div class="container">
+        <div class="section-head"><h2>Score file format</h2><p>The XML score fully specifies performance timing and allows instrument notes to override default effect send levels.</p></div>
+        <div class="grid two">
+          <div class="card">
+            <h3>Timing and note parameters</h3>
+            <ul class="list-clean details">
+              <li><b>bpm, beatspermeasure</b> control musical timing.</li>
+              <li><b>measure, beat, duration</b> schedule and time each note. Duration is measured in beats.</li>
+              <li><b>sample, method, startPosition</b> configure the scratch instrument.</li>
+              <li><b>dry, chorus, reverb, flanger, ring</b> set independent routing gains. Notes can override their instrument defaults.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Example</h3>
+            <pre class="code-sample"><code>&lt;score bpm="120" beatspermeasure="4"&gt;
+  &lt;instrument instrument="ScratchInstrument"
+              dry="0.8" reverb="0.2"&gt;
+    &lt;note measure="1" beat="1"
+          duration="2" sample="are-you-ready.wav"
+          method="baby" chorus="0.5" /&gt;
+  &lt;/instrument&gt;
+&lt;/score&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head"><h2>Components & team</h2><p>Each component has its own technical page with ownership, implementation notes and grading criteria.</p></div>
+        <div class="grid two">
+          <article class="card"><span class="tag">Effects component</span><h3>[Your full name]</h3><p>Implemented the effects pipeline, four DSP processors, stereo mixing and XML-controlled sends.</p><a class="card-link" href="effects.html">Read effects documentation →</a></article>
+          <article class="card"><span class="tag">Scratching synthesizer</span><h3>[Michael's full name]</h3><p>Implemented scratch sample playback, record motion, fader behavior and note-level performance controls.</p><a class="card-link" href="scratching.html">Read scratching documentation →</a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container"><p>CSE 471 · Michigan State University · Fall 2026</p><p>Project 1 · Multi-Component Music Synthesizer</p></footer>
+</body>
+</html>
